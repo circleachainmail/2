@@ -1,0 +1,79 @@
+/*
+Theme Name: weDocs
+Theme URI: docs.typostores.com
+Description: A documentation theme for WordPress
+Version: 0.1
+Author: KoS
+Author URI: http://typostores.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: green
+*/
+*,
+p,
+span {
+  line-height: 1.7;
+}
+.documentor-default .dcumentor-topicons img {
+  height: 30px!important;
+  width: 30px!important;
+}
+.hentry .entry-content img {
+  height: auto!important;
+}
+.wrap.container .content {
+  min-height: 480px;
+}
+.documentor-default .doc-menu a.doc-acta {
+  color: #295!important;
+  font-weight: 600!important;
+}
+.documentor-default .doc-menu a.doc-acta:focus {
+  color: #295!important;
+}
+@media (max-width: 479px) {
+  ul.doc-category li.doc,
+  ul.doc-category li.category {
+    width: 100%;
+  }
+}
+.open > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #1e8449;
+  color: #fff;
+}
+.dropdown-menu {
+  background: #295;
+  color: #fff;
+  padding: 0;
+}
+.dropdown-menu > li > a {
+  padding: 7px 10px;
+}
+.banner .navbar-nav .dropdown-menu a {
+  background: #295;
+  color: #fff;
+}
+ul.doc-category li.doc h3:before,
+ul.doc-category li.category h3:before {
+  top: 3px;
+}
+.documentor-default .documentor-social span img {
+  width: 25px;
+  height: 25px;
+  margin: 0 25px 0 0;
+}
+.content-info {
+  height: 360px;
+  padding: 0;
+  background: url("../img/footer-background.jpg") no-repeat center center;
+  background-size: cover;
+}
+.content-info .widget-area {
+  min-height: 250px;
+}

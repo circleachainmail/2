@@ -1,0 +1,14 @@
+1.Google Web Fonts Integration
+2.Unlimited Color Options
+3.Mega Menu
+4.FlexSlider Slideshow
+5.Product Sale Label
+6.Grid & List Mode
+7.Product Hover & Quick View
+8. Ajax Wishlist 
+9. Ajax Cart
+9.Customer Reviews
+10. Product Variants
+11.Reponsive Bootstrap 3 
+12.filter product
+
